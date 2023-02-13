@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -212,4 +211,14 @@ hr{
 }
 .contract .section-title{
     text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+    
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
+}
+.hide{
+    display: none;
 }
