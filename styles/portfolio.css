@@ -133,14 +133,14 @@ section{
 
 .what-i-do {
     border-radius: 10px;
-    padding: 130px 150px;
+    /* padding: 130px 150px; */
 }
 
 .skill {
-    background: #FFFFFF;
     padding: 30px;
-    background: #FFFFFF;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    background: #161515;
+    color: white;
+    box-shadow: 0px 6px 50px rgba(219, 37, 37, 0.323);
     border-radius: 5px;
 }
 
@@ -148,7 +148,6 @@ section{
     margin-top: 50px;
     display: flex;
     gap: 24px;
-    justify-content: space-around;
 }
 
 .skill-title {
@@ -214,7 +213,31 @@ hr{
 }
 
 @media screen and (max-width: 576px) {
-    
+    nav, .banner, .skills-container, .resume-content, .about-info-container, .contract{
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px 20px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .bbb{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner{
+        margin: 0 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .about, .contract{
+        padding: 20px;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
     
